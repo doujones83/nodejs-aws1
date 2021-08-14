@@ -10,6 +10,14 @@
       "StackName": "amplify-localdevelopment-dev-22700",
       "StackId": "arn:aws:cloudformation:us-east-2:766243558030:stack/amplify-localdevelopment-dev-22700/05505fd0-fcd1-11eb-92f9-02bdc5e4be0c",
       "AmplifyAppId": "d2ugoaaejrej1h"
+    },
+    "categories": {
+      "function": {
+        "reactlambda": {
+          "deploymentBucketName": "amplify-localdevelopment-dev-22700-deployment",
+          "s3Key": "amplify-builds/reactlambda-37384b44433779385770-build.zip"
+        }
+      }
     }
   }
 }

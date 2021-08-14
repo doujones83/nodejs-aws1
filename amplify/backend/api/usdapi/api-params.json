@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/coins",
+      "lambdaFunction": "reactlambda",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/coins"
+    }
+  ],
+  "resourceName": "usdapi",
+  "apiName": "usdapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "reactlambda"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-localdevelopment-dev-22700-authRole",
+    "unAuthRoleName": "amplify-localdevelopment-dev-22700-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "reactlambda",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
