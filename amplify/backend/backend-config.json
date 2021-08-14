@@ -1,0 +1,9 @@
+{
+  "function": {
+    "reactlambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}
